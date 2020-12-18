@@ -1,0 +1,114 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flexColum {
+    flex-direction: column;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.justifyBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.mtb2 {
+    margin: 2rem 0;
+}
+
+.mlr2 {
+    margin: 0 2rem;
+}
+
+.ptb1 {
+    padding: 1rem 0;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.m1 {
+    margin: 1rem;
+}
+
+.m2 {
+    margin: 2rem;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.title {
+    width: 100%;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.button {
+    padding: 1rem 2.5rem;
+    background: cornflowerblue;
+    color: cornsilk;
+    text-align: center;
+    border: none;
+    width: 100%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.buttonDisable {
+    background: rgb(154, 179, 226);
+    cursor: not-allowed;
+}
+
+.borderTop {
+    border-top: 1px solid #e9e9e9;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.textRed {
+    color: crimson;
+}
+
+.empty {
+    background: #ebebeb;
+    padding: 2rem;
+    text-align: center;
+    border: 2px dashed #c1c1c1;
+    border-radius: 1rem;
+    margin-top: 10rem;
+}
