@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.dark {
+    background: #333;
+    color: #fff;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+
+}
+
+.navigation > a {
+    color: #dbdbdb;
+    margin: 0 2rem;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+.navigation > a > label {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.footer { 
+    text-align: center;
+    font-weight: 300;
+    margin: 2rem;
+}
+
+.logo > a {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
